@@ -1,0 +1,4 @@
+# Required Libraries
+scikit-multiflow==0.5.3
+numpy==1.21.6
+matplotlib==3.2.2
