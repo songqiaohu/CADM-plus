@@ -86,6 +86,9 @@ Please refer to
 ```
 https://github.com/THUFDD/JiaolongDSMS_datasets
 ```
+
+## Partial Experimental Results
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/time_acc.png?raw=true"/></div>
   
 
 
