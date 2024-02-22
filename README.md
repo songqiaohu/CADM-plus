@@ -35,6 +35,57 @@ overall accuracy = 92.28515703140629%
 label_cost = 0.22368000000000002
 total time:58.81265616416931s
 ```
+
+## Datasets used in CADM+ 
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+2.png?raw=true"/></div>  
+
+### Simulated Datasets
+- Data distribution display:
+<div align="center">
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LAbrupt.gif?raw=true" width="240px" height="180px" alt="LAbrupt"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden.gif?raw=true" width="240px" height="180px" alt="LSudden"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LGradual.gif?raw=true" width="240px" height="180px" alt="LGradual"/>
+</div>
+
+<p align="center">&#8195;(a) LAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) LSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) LGradual</p>
+
+<div align="center">
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLAbrupt.gif?raw=true" width="240px" height="180px" alt="NLAbrupt"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLSudden.gif?raw=true" width="240px" height="180px" alt="NLSudden"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLGradual.gif?raw=true" width="240px" height="180px" alt="NLGradual"/>
+</div>
+
+<p align="center">&#8195;&#8195;(a) NLAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) NLSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) NLGradual</p>
+
+<div align="center">
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="320px" height="240px" alt="LSudden_3"/>
+</div>
+
+<p align="center">(g) LSudden_3</p>
+
+
+
+### Benchmark Datasets
+- HYP_05 (from scikit-multiflow):
+```
+import csv
+from skmultiflow.data import HyperplaneGenerator
+import numpy as np
+stream = HyperplaneGenerator(mag_change=0.5)
+X, y = stream.next_sample(1000000)
+with open('HYP_05.csv', 'w', newline='') as fp:
+    writer = csv.writer(fp)
+    writer.writerows(np.column_stack((X, y)))
+```
+- SEA_a (from MOA):
+```
+WriteStreamToARFFFile -s (ConceptDriftStream -s generators.SEAGenerator -d (ConceptDriftStream -s (generators.SEAGenerator -f 2) -d (ConceptDriftStream -s generators.SEAGenerator -d (generators.SEAGenerator -f 4) -p 250000 -w 50) -p 250000 -w 50) -p 250000 -w 50) -f (SEA_a.arff) -m 1000000
+``` 
+### Real-world Dataset (Jiaolong)
+Please refer to
+```
+https://github.com/THUFDD/JiaolongDSMS_datasets
+```
   
 
 
