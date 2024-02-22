@@ -14,16 +14,32 @@
 
 
 ```
-import pandas as pd
+from CADM_plus_strategy import *
+t1 = time.time()
 
-data = pd.read_csv('xxxxxx/nonlinear_gradual_chocolaterotation_noise_and_redunce.csv')
+stream = FileStream('datasets/LAbrupt.csv')
+CADM_plus = CADM_plus_strategy(q = 0.03, stream=stream, train_size = 200, chunk_size = 100, label_ratio = 0.2,
+             class_count = stream.n_classes, max_samples=1000000, k=500, classifier_string="NB")
+CADM_plus.main()
 
-data = data.values 
+t2 = time.time()
+print('total time:{}s'.format(t2 - t1))
+```
 
-X = data[:, 0 : 5] 
+- Output:
+```
+from CADM_plus_strategy import *
+t1 = time.time()
 
-Y = data[:, 5] 
-``` 
+stream = FileStream('datasets/LAbrupt.csv')
+CADM_plus = CADM_plus_strategy(q = 0.03, stream=stream, train_size = 200, chunk_size = 100, label_ratio = 0.2,
+             class_count = stream.n_classes, max_samples=1000000, k=500, classifier_string="NB")
+CADM_plus.main()
+
+t2 = time.time()
+print('total time:{}s'.format(t2 - t1))
+```
+  
 
 
 
