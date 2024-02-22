@@ -1,6 +1,6 @@
 # CADM-plus
-# Datasets used in CADM+ 
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+2.png?raw=true"/></div>  
+# The flow chart of CADM+ framework
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/framework.png?raw=true"/></div>  
 
 ## Simulated Datasets
 - Data distribution display:
