@@ -28,16 +28,12 @@ print('total time:{}s'.format(t2 - t1))
 
 - Output:
 ```
-from CADM_plus_strategy import *
-t1 = time.time()
-
-stream = FileStream('datasets/LAbrupt.csv')
-CADM_plus = CADM_plus_strategy(q = 0.03, stream=stream, train_size = 200, chunk_size = 100, label_ratio = 0.2,
-             class_count = stream.n_classes, max_samples=1000000, k=500, classifier_string="NB")
-CADM_plus.main()
-
-t2 = time.time()
-print('total time:{}s'.format(t2 - t1))
+------------------ Result ------------------
+The count of correct predicted samples: 922667
+The count of all predicted samples: 999800
+overall accuracy = 92.28515703140629%
+label_cost = 0.22368000000000002
+total time:58.81265616416931s
 ```
   
 
