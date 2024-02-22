@@ -36,7 +36,7 @@ label_cost = 0.22368000000000002
 total time:58.81265616416931s
 ```
 
-## Datasets used in CADM+ 
+## Used Datasets Introduction
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+2.png?raw=true"/></div>  
 
 ### Simulated Datasets
