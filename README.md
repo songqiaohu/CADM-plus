@@ -91,6 +91,19 @@ https://github.com/THUFDD/JiaolongDSMS_datasets
 
 ## Partial Experimental Results
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/time_acc.png?raw=true"/></div>
+
+## Citation
+```
+@ARTICLE{10458267,
+  author={Hu, Songqiao and Liu, Zeyi and Li, Minyue and He, Xiao},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={CADM $+$ : Confusion-Based Learning Framework With Drift Detection and Adaptation for Real-Time Safety Assessment}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TNNLS.2024.3369315}}
+```
   
 
 
