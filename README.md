@@ -104,6 +104,14 @@ https://github.com/THUFDD/JiaolongDSMS_datasets
 ## Contact
 Welcome to communicate with us: hsq23@mails.tsinghua.edu.cn
 
+## Acknowledgments
+
+We extend our sincere gratitude to our THUFDD Group, led by Prof. Xiao He and Prof. Donghua Zhou, for the invaluable support and contributions to the development of this scheme.
+
+
+---
+
+**Disclaimer:** This scheme is provided as-is without any warranty. Use at your own risk.
 
 
 
