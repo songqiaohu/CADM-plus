@@ -107,7 +107,7 @@ Welcome to communicate with us: hsq23@mails.tsinghua.edu.cn
 
 ## Acknowledgments
 
-We extend our sincere gratitude to our THUFDD Group, led by Prof. Xiao He and Prof. Donghua Zhou, for invaluable support and contributions to the development of this scheme.
+We extend our sincere gratitude to our THUFDD Group, led by Prof. Xiao He and Prof. Donghua Zhou, for the invaluable support and contributions to the development of this scheme.
 
 
 ---
