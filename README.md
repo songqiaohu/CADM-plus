@@ -1,6 +1,7 @@
 # CADM-plus
 ## Background
 Real-time safety assessment (RTSA) of dynamic systems holds substantial implications across diverse fields, including industrial and electronic applications. However, the complexity and rapid flow nature of data streams, coupled with the expensive label cost, pose significant challenges. To address these issues, a novel confusion-based learning framework, termed CADM+, is proposed in this paper. When drift occurs, the model is updated with uncertain samples, which may cause confusion between existing and new concepts, resulting in performance differences. The cosine similarity is used to measure the degree of such conceptual confusion in the model. Furthermore, the change of standard deviation within a fixed-size cosine similarity window is introduced as an indicator for drift detection. Theoretical demonstrations show the asymptotic increase of cosine similarity. Additionally, the approximate independence of the change in standard deviation with the number of trained samples is indicated. Finally, extreme value theory is applied to determine the threshold of judging drifts. Several experiments are conducted to verify its effectiveness. Experimental results prove that the proposed framework is more suitable for RTSA tasks compared to state-of-the-art algorithms.
+
 ## The flow chart of CADM+ framework
 
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/framework.png?raw=true"/></div>
@@ -93,7 +94,7 @@ https://github.com/THUFDD/JiaolongDSMS_datasets
 @ARTICLE{10458267,
   author={Hu, Songqiao and Liu, Zeyi and Li, Minyue and He, Xiao},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
-  title={CADM $+$ : Confusion-Based Learning Framework With Drift Detection and Adaptation for Real-Time Safety Assessment}, 
+  title={CADM $+$: Confusion-Based Learning Framework With Drift Detection and Adaptation for Real-Time Safety Assessment}, 
   year={2024},
   volume={},
   number={},
@@ -106,7 +107,7 @@ Welcome to communicate with us: hsq23@mails.tsinghua.edu.cn
 
 ## Acknowledgments
 
-We extend our sincere gratitude to our THUFDD Group, led by Prof. Xiao He and Prof. Donghua Zhou, for the invaluable support and contributions to the development of this scheme.
+We extend our sincere gratitude to our THUFDD Group, led by Prof. Xiao He and Prof. Donghua Zhou, for invaluable support and contributions to the development of this scheme.
 
 
 ---
